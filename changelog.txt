@@ -1,0 +1,17 @@
+== Changelog ==
+
+    = 2.0.0 - April 28 2019 =
+    * Upgrade new
+
+    = 1.0.3 - May 12 2015 =
+    * Fixed js issues
+    
+    = 1.0.2 - May 12 2015 =
+    * Fixed css issues
+
+    = 1.0.1 - May 12 2015 =
+    * Initial release
+
+    
+
+    

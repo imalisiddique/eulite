@@ -1,0 +1,181 @@
+/*
+ * Theme Style
+ */
+/*	Table of Content
+========================
+	# Genarel
+	# Layout
+	# Base styles
+========================
+*/
+
+
+/* 	==========================================================================
+	Genarel
+	========================================================================== */
+
+	body {
+		font-family: 'Jura', sans-serif;
+	}
+	
+	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Poppins', sans-serif;
+		margin-top: 0;
+		margin-bottom: 10px;
+		font-weight: 700;
+	}
+	
+	h1 { font-size: 3rem; }
+	h2 { font-size: 2.5rem; }
+	h3 { font-size: 2.25rem; }
+	h4 { font-size: 1.875rem; }
+	h5 { font-size: 1.50rem; }
+	h6 { font-size: 1.25rem; }
+	p { margin-top: 0; }
+	
+	a { 
+		color: #44bba4;
+		text-decoration: none;
+	}
+	a:hover { color: #415a77; }
+
+/* 	==========================================================================
+	Layout
+	========================================================================== */
+	.wrapper{
+		background: #f2f2f2;
+	}
+	.wrapper-container{
+		background: #fff;
+	}
+
+	.header-wrapper{
+		margin-bottom: 20px;
+	}
+	.header-container{
+	}
+
+	.top-header{}
+	.top-header-inner{
+		background: #415a77;
+		padding: 2px 20px;
+		
+	}
+
+	.middle-header{}
+	.middle-header-inner{
+		background: #fafafa;
+		padding: 2px 20px;
+	}
+
+	.bottom-header{}
+	.bottom-header-inner{
+		background: #415a77;
+		padding: 0px 20px;
+	}
+
+	.content-wrapper{}
+	.content-container{}
+
+	.footer-wrapper{}
+	.footer-container{}
+
+	.top-footer{}
+	.middle-footer{
+	}
+	.middle-footer-inner{
+		background: #f2f2f2;
+		padding: 30px;
+	}
+	.bottom-footer {
+	}
+	.bottom-footer-inner{
+		background: #415a77;
+		padding: 60px;
+	}
+
+
+/* 	==========================================================================
+	Header
+	========================================================================== */
+	.brand-wrapper{}
+	.brand-title{
+		color: #fff;
+		font-size: 14px;
+	}
+	.brand-desc{
+		color: #fff;
+		font-size: 14px;
+	}
+	.brand-separetor{
+		padding: 0px 4px;
+		color: #fff;
+	}
+
+	.brand-logo-text h2{
+		font-size: 5em;
+		font-weight: 700;
+		margin-bottom: 0;
+	}
+	.brand-desc-alt {
+		font-size: 1.6em;
+		margin-bottom: 10px;
+	}
+
+/* 	==========================================================================
+	Navigation
+	========================================================================== */
+	.nav-link {
+		color: #fff;
+		font-weight: 500;
+		text-transform: uppercase;
+	}
+	.nav-link a {
+		color: #415a77;
+	}
+	.nav-link a {
+		color: #86cb92;
+	}
+/* 	==========================================================================
+	Footer
+	========================================================================== */
+	.footer-menu{
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	.footer-menu ul {
+		display: flex;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-content: center;
+	}
+	.footer-menu a {
+		color: #fff;
+		font-size: 12px;
+		font-weight: 300;
+		padding: 0 10px;
+		margin-bottom: 20px;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+	.footer-menu a:hover{
+		color: #86cb92;
+	}
+
+	.copyright{
+		color: #fff;
+		font-size: 12px;
+		line-height: 24px;
+		font-weight: 300;
+		text-align: center;
+	}
+	.copyright a{
+		color: #fff;
+		text-decoration: none;
+	}
+	.copyright a:hover{
+		color: #86cb92;
+	}
